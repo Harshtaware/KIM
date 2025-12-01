@@ -1,1 +1,3 @@
-# KIM
+# Tell us the most challenging problem you solved recently, in 5–7 sentences
+
+While Working on HireNest (Job Portal) ,the most challenging problem I solved was implementing a fully secure multi-role authentication system in my MERN-stack Job Portal project. The system had to support both Job Seekers and Companies, each with different permissions, dashboards, and API access rules. Handling JWT authentication with role-based access, refresh tokens, and protected routes became complicated because even a small mistake broke the entire flow. I solved this by restructuring the backend, adding middleware layers, and creating a clean access-control logic that checks roles at every critical endpoint. On the frontend, I used Redux Toolkit + Persist to maintain global authentication state without breaking routing. This challenge taught me how to think like a backend architect and secure real-world apps.
